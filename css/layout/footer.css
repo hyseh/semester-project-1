@@ -1,0 +1,36 @@
+footer {
+  background: #21562a;
+  margin-top: 40px;
+  padding: 60px 20px 60px 20px;
+}
+
+.container-row {
+  color: #ffffff;
+}
+
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-content li {
+  width: fit-content;
+}
+
+footer ul a {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .container-footer {
+    max-width: 942px;
+    margin: auto;
+  }
+
+  .container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
