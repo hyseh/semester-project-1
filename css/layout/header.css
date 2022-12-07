@@ -35,6 +35,14 @@ nav,
   display: block;
 }
 
+ul {
+  user-select: none;
+}
+
+a {
+  user-select: all;
+}
+
 .bars-container {
   background: #ffffff;
   height: 44px;
