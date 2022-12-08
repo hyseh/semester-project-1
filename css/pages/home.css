@@ -14,6 +14,11 @@
   flex-wrap: wrap;
 }
 
+.flex-wrapper a {
+  width: 100%;
+  margin-right: 0px;
+}
+
 .news-container {
   height: 100%;
   width: 100%;
@@ -80,6 +85,10 @@
     flex-wrap: nowrap;
   }
 
+  .flex-wrapper a {
+    margin-right: 20px;
+  }
+
   .news-container-image {
     margin-right: 20px;
     max-width: 630px;
@@ -95,12 +104,6 @@
 
   .text-preview {
     -webkit-line-clamp: 3;
-  }
-}
-
-@media (min-width: 1204px) {
-  .flex-wrapper {
-    flex-wrap: wrap;
   }
 }
 /* end of section 1 */
