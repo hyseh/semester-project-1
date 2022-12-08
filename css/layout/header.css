@@ -1,9 +1,13 @@
+header {
+  top: 0;
+  position: sticky;
+}
+
 .header-container {
   height: 100px;
   max-width: 1204px;
   margin: auto;
-  position: sticky;
-  top: 0;
+  background: #ffffff;
 }
 
 .header-container-content {
@@ -135,6 +139,10 @@ header hr {
   .nav-menu,
   nav ul hr {
     display: none;
+  }
+
+  header {
+    position: static;
   }
 
   .header-container {
