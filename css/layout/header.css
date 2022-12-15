@@ -44,15 +44,15 @@ ul {
 }
 
 a {
-  user-select: all;
+  user-select: text;
 }
 
 .bars-container {
-  background: #ffffff;
   height: 44px;
   width: 44px;
   display: grid;
   place-items: center;
+  background: #ffffff;
 }
 
 .bars-icon {
@@ -70,10 +70,10 @@ a {
 
 .nav-menu-content {
   display: flex;
-  align-items: flex-end;
-  width: 100%;
   justify-content: space-between;
+  align-items: flex-end;
   margin: 20px;
+  width: 100%;
 }
 
 #menu-title {
